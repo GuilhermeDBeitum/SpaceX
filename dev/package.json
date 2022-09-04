@@ -1,0 +1,68 @@
+{
+  "name": "dev",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.5.5",
+    "apollo-server": "^3.5.0",
+    "apollo-server-integration-testing": "^3.0.0",
+    "apollo-server-testing": "^2.25.3",
+    "graphiql": "^1.5.11",
+    "moment-timezone": "^0.5.34",
+    "ts-jest": "^27.1.0",
+    "vue": "^2.6.11",
+    "vue-apollo": "^3.1.0",
+    "vue-responsive": "^1.1.0",
+    "vue-responsive-component": "^1.0.5",
+    "vue-responsive-components": "^0.2.3",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/register": "^7.16.0",
+    "@types/jest": "^27.0.3",
+    "@vue/cli-plugin-eslint": "^4.5.15",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "^4.5.15",
+    "apollo-boost": "^0.4.9",
+    "babel-jest": "^27.4.2",
+    "cross-fetch": "^3.1.4",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^8.2.0",
+    "graphql": "^15.8.0",
+    "jest": "^27.4.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 2020
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.(ts|tsx)?$": "ts-jest",
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
